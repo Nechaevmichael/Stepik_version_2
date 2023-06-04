@@ -5,3 +5,4 @@
 
 print(input(), end=' ')
 print('- Сказал она!')
+print('Yes!')
