@@ -17,4 +17,4 @@ n = int(input())
 hours = n % 86400 // 3600
 minuts = n % 86400 % 3600 // 60
 seconds = n % 86400 % 3600 % 60
-print(hours, ':', minuts // 10, minuts, ':', seconds // 10, seconds, sep='')
+print(hours, ':', minuts // 10, minuts % 10, ':', seconds // 10, seconds % 10, sep='')
