@@ -79,8 +79,10 @@
 # third_class = int(input())
 # print(math.ceil(first_class / 2) + math.ceil(second_class / 2) + math.ceil(third_class / 2))
 
-L, W, H = map(int, input().split())
+# L, W, H = map(int, input().split())
+#
+# side_1 = (((L + W) * 2) * H) / 16
+# import math
+# print(math.ceil(side_1))
 
-side_1 = (((L + W) * 2) * H) / 16
-import math
-print(math.ceil(side_1))
+print(-19%-5)
